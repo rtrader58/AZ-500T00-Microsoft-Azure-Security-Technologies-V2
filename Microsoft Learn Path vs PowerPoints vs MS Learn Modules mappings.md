@@ -7,20 +7,22 @@ Module 2: Manage authentication by using Microsoft Entra ID - https://learn.micr
 Module 3: Manage authorization by using Microsoft Entra ID - https://learn.microsoft.com/en-us/training/modules/manage-authorization-microsoft-entra-id/ <br>
 Module 4: Manage application access in Microsoft Entra ID - https://learn.microsoft.com/en-us/training/modules/manage-application-access-microsoft-entra-id/ <br>
 
-Lab <br>
+Labs <br>
 
-Lab 1: Role-Based Access Control ~30 Minutes (90) <br> 
+Lab 01 - Role-Based Access Control ~30 Minutes (90) <br> 
+Lab 02 – MFA – Conditional access – Identity protection
+Lab 03 – Microsoft Entra privileged identity management
 
 ## Learning Path 2:  Implement platform protection - https://learn.microsoft.com/en-us/training/paths/secure-networking/
 
 Module 1: Plan and implement security for virtual networks - https://learn.microsoft.com/en-us/training/modules/security-virtual-networks/ <br>
-odule 2: Plan and implement security for private access to Azure resources - https://learn.microsoft.com/en-us/training/modules/security-private-access-azure-resources/ <br>
-odule 3: Plan and implement security for public access to Azure resources - https://learn.microsoft.com/en-us/training/modules/security-public-access-azure-resources/<br>
+Module 2: Plan and implement security for private access to Azure resources - https://learn.microsoft.com/en-us/training/modules/security-private-access-azure-resources/ <br>
+Module 3: Plan and implement security for public access to Azure resources - https://learn.microsoft.com/en-us/training/modules/security-public-access-azure-resources/<br>
 
 Labs <br>
 
-Lab 2: Network Security Groups and Application Security Groups ~45 Minutes (60) <br>
-Lab 3: Azure Firewall ~45 Minutes (60) <br>
+Lab 04 - Network Security Groups and Application Security Groups ~45 Minutes (60) <br>
+Lab 05 - Azure Firewall ~45 Minutes (60) <br>
 
 Learning Path 2 Additional Labs <br>
 Lab 102: VNet Peering ~45 Minutes (60) <br>
@@ -38,20 +40,20 @@ Module 3: Plan and implement security for Azure SQL Database and Azure SQL Manag
 
 Labs <br>
 
-Lab 4: Configuring and securing ACR and AKS​  <br>
-Lab 5: Securing Azure SQL Database ~20 Minutes (60) <br>
-Lab 6: Service Endpoints and Securing Storage <br>
+Lab 06 - Configuring and securing ACR and AKS​  <br>
+Lab 07 - Securing Azure SQL Database ~20 Minutes (60) <br>
+Lab 08 - Service Endpoints and Securing Storage <br>
 
 ## Learning Path 4: Manage Security Operations  - https://learn.microsoft.com/en-us/training/paths/manage-security-operations-new/
 
 Module 1: Plan, implement, and manage governance for security - https://learn.microsoft.com/en-us/training/modules/governance-security/ <br>
 Module 2: Manage security posture by using Microsoft Defender for Cloud - https://learn.microsoft.com/en-us/training/modules/microsoft-defender-cloud-security-posture/<br>
 Module 3: Configure and manage threat protection by using Microsoft Defender for Cloud  - https://learn.microsoft.com/en-us/training/modules/microsoft-defender-cloud-threat-protection/<br>
-Module 3: Cloud Configure and manage security monitoring and automation solutions  - https://learn.microsoft.com/en-us/training/modules/security-monitoring-automation-solutions/<br>
+Module 4: Cloud Configure and manage security monitoring and automation solutions  - https://learn.microsoft.com/en-us/training/modules/security-monitoring-automation-solutions/<br>
 
 Labs <br>
 
-Lab 7: Key Vault​  <br>
-Lab 8: Azure Monitor ~30 Minutes <br>
-Lab 9: Security Center ~60 Minutes <br>
-Lab 10: Azure Sentinel ~45 Minutes<br>
+Lab 09 - Key Vault​  <br>
+Lab 10 - Azure Monitor ~30 Minutes <br>
+Lab 11 - Security Center ~60 Minutes <br>
+Lab 12 - Azure Sentinel ~45 Minutes<br>

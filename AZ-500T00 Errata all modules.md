@@ -1,7 +1,7 @@
 # AZ-500T00 All Learning Paths Errata
 
 
-Updated January 2022, November and September 2021 - Labs are the same as July 2020 revision<br> 
+Updated March 2024 <br>
 When starting each lab choose Yes when prompted to be visible in networks<br>
 
 # Learning Path 1 Manage Identity and Access - Total lab time ~150 Minutes (3.5 hour)
