@@ -28,22 +28,3 @@ After running step 3 choose Edge Browser and enter your Azure tenant admin accou
 
 Before completing this lab create an outlook.com account for use in this lab.  Refer to the create an outlook.com account document in the file share.<br>
 
-### Exercise 1: Implement Azure MFA
-
-Task 5: Configure Azure MFA settings.<br><br>
-Step 14 is a verification step Click the x to leave the page<br>
-
-Task 6: Validate MFA configuration<br>
-Step 8 - 10 Choose to use an email address, use the outlook.com account you created at the beginning of this lab. Open outlook.com and retrieve the code sent.<br>
-
-## Lab 4: Implementing Directory Synchronization ~60 Minutes (8 hours)
-
-### Exercise 1
-
-Task 1<br>
-Step 5: For the Add DNS TXT Record, in the Name , type @ for the Name and the ms=xxxx  value from your Custom Domain Name as the Value<br>
-
-### Exercise 2: Azure AD Pass-through Authentication
-
-Task 2: Install AD Connect<br>
-Step 8: Copy the password from the Home tab in the lab.  The password in the lab instructions is incorrect.<br>

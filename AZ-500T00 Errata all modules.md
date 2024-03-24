@@ -24,35 +24,11 @@ If you encounter an error during this lab that indicates the clock is out of syn
 Wait for step 1 to complete before moving on to step 2 <br>
 After running step 3 choose Edge Browser and enter your Azure tenant admin account and password <br>
 
-## Labs 2 and 3: MFA, Conditional Access and AAD Identity Protection & Privileged Identity Management (PIM) ~60 minutes (6 Hours) 
-
-Before completing this lab create an outlook.com account for use in this lab.  Refer to the create an outlook.com account document in the file share.<br>
-
-### Exercise 1: Implement Azure MFA
-
-Task 5: Configure Azure MFA settings.<br><br>
-Step 14 is a verification step Click the x to leave the page<br>
-
-Task 6: Validate MFA configuration<br>
-Step 8 - 10 Choose to use an email address, use the outlook.com account you created at the beginning of this lab. Open outlook.com and retrieve the code sent.<br>
-
-## Lab 4: Implementing Directory Synchronization ~60 Minutes (8 hours)
-
-### Exercise 1
-
-Task 1<br>
-Step 5: For the Add DNS TXT Record, in the Name , type @ for the Name and the ms=xxxx  value from your Custom Domain Name as the Value<br>
-
-### Exercise 2: Azure AD Pass-through Authentication
-
-Task 2: Install AD Connect<br>
-Step 8: Copy the password from the Home tab in the lab.  The password in the lab instructions is incorrect.<br>
-
 # Learning Path 2 – Implement Platform Protection ~135 Minutes (180)
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
 
-## Lab 7 – Network Security Groups and Application Security Groups ~45 Minutes (60 Min) 
+## Lab 02 – Network Security Groups and Application Security Groups ~45 Minutes (60 Min) 
 
 ### Exercise 1:  Filter network traffic with a network security group using the Azure portal
 
@@ -85,7 +61,7 @@ Step 6:  When pasting from the lab instructions the syntax is wrong. <br>
 	It should be   <br>
 		mstsc /v:MyVmWeb <br>
 
-## Lab 6 – Azure Firewall ~45 Minutes (60 Min) 
+## Lab 03 – Azure Firewall ~45 Minutes (60 Min) 
 
 ### Exercise 1:  Deploy and test an Azure Firewall 
 

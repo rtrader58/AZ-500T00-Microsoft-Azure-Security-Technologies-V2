@@ -1,5 +1,5 @@
 # AZ-500T00 Microsoft Azure Security Technologies
-Reflects updated course on 19 Jan 2024 <br>
+Reflects updated course on  Jan 2024 <br>
 
 ## This repository is provided to enhance the course
 
