@@ -10,8 +10,6 @@ Module 4: Manage application access in Microsoft Entra ID - https://learn.micros
 Labs <br>
 
 Lab 01 - Role-Based Access Control ~30 Minutes (90) <br> 
-Lab 02 – MFA – Conditional access – Identity protection
-Lab 03 – Microsoft Entra privileged identity management
 
 ## Learning Path 2:  Implement platform protection - https://learn.microsoft.com/en-us/training/paths/secure-networking/
 
