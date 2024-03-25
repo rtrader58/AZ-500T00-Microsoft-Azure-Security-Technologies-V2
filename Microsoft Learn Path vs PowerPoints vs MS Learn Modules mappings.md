@@ -17,12 +17,12 @@ Module 1: Plan and implement security for virtual networks - https://learn.micro
 Module 2: Plan and implement security for private access to Azure resources - https://learn.microsoft.com/en-us/training/modules/security-private-access-azure-resources/ <br>
 Module 3: Plan and implement security for public access to Azure resources - https://learn.microsoft.com/en-us/training/modules/security-public-access-azure-resources/<br>
 
-Labs <br>
+Labs ~90 Minutes (120)<br>
 
 Lab 02 - Network Security Groups and Application Security Groups ~45 Minutes (60) <br>
 Lab 03 - Azure Firewall ~45 Minutes (60) <br>
 
-Learning Path 2 Additional Labs <br>
+Learning Path 2 Additional Labs ~305 Minutes (360)<br>
 Lab 102: VNet Peering ~45 Minutes (60) <br>
 Lab 103: NVA ~75 Minutes (60) <br>
 Lab 104: Azure Bastion ~30 Minutes (60) <br>
