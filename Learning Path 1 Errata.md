@@ -24,7 +24,5 @@ If you encounter an error during this lab that indicates the clock is out of syn
 Wait for step 1 to complete before moving on to step 2 <br>
 After running step 3 choose Edge Browser and enter your Azure tenant admin account and password <br>
 
-## Labs 2 and 3: MFA, Conditional Access and AAD Identity Protection & Privileged Identity Management (PIM) ~60 minutes (6 Hours) 
 
-Before completing this lab create an outlook.com account for use in this lab.  Refer to the create an outlook.com account document in the file share.<br>
 
