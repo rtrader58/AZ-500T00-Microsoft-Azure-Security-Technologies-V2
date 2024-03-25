@@ -19,8 +19,8 @@ Module 3: Plan and implement security for public access to Azure resources - htt
 
 Labs <br>
 
-Lab 04 - Network Security Groups and Application Security Groups ~45 Minutes (60) <br>
-Lab 05 - Azure Firewall ~45 Minutes (60) <br>
+Lab 02 - Network Security Groups and Application Security Groups ~45 Minutes (60) <br>
+Lab 03 - Azure Firewall ~45 Minutes (60) <br>
 
 Learning Path 2 Additional Labs <br>
 Lab 102: VNet Peering ~45 Minutes (60) <br>
