@@ -35,7 +35,7 @@ Step 3: Close the video in the details section of this page, and ignore the inst
 Step 4: Navigate to the Virtual Machines queries in the All Queries column or use Search<br>
 Step 5: It doesn’t matter which queries you run, this task is to show you VM log data being gathered. Note that some queries will have no results as not enough data has been gathered yet.<br>
 
-# ***** DO NOT END THE LAB!!  After completing Lab 11 use the drop down window at the top to move to lab 12  DO NOT END THE LAB!! *****
+# ***** DO NOT END THE LAB!!  After completing Lab 8 use the drop down window at the top to move to lab 9  DO NOT END THE LAB!! *****
 
 ## Lab 9 – Security Center ~60 Minutes
 
@@ -64,7 +64,7 @@ In the Settings section, click the Security blade<br>
 Click the Explore just-in-time access in Defender for Cloud<br>
 If JIT does not appear as an option within 30 minutes, move on to Lab 15.<br> It is not necessary to complete the JIT VM Access task to complete the labs.<br>
 
-# ***** DO NOT END THE LAB!!  After completing Lab 12 use the drop-down window at the top to move to lab 13.  Do not end the lab!! *****<br>
+# ***** DO NOT END THE LAB!!  After completing Lab 9 use the drop-down window at the top to move to lab 10.  Do not end the lab!! *****<br>
 
 ## Lab 10: Azure Sentinel ~45 Minutes
 
