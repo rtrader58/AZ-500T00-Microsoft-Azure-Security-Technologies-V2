@@ -5,7 +5,7 @@ When starting each lab choose Yes when prompted to be visible in networks<br>
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
 
-# Learning Path 3 - Secure Data and Applications ~150 Minutes (180 Min)
+# Learning Path 3 - Secure Data and Applications ~140 Minutes (180 Min)
 
 ## Lab 4 – Configuring and Securing ACR and AKS ~45 Minutes (60 Min)
 
@@ -42,7 +42,7 @@ Step 7:  Back to Microsoft Defender for Cloud blade, review Recommendations and 
 Task 4 : Configure auditing<br>
 Step 3:  Click on Server Settings then set the Auditing switch to ON to enable auditing.<br>
 
-## Lab 6 – Service Endpoints and Securing Storage ~55 Minutes (60 Min)
+## Lab 6 – Service Endpoints and Securing Storage ~75 Minutes (60 Min)
 
 ### Exercise 1: Service endpoints and security storage
 
