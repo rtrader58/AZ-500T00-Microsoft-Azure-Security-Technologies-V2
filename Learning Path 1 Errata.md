@@ -1,7 +1,5 @@
 # AZ-500T00 Learning Path 1 Labs Errata   
  
-Updated January 2022, November and September 2021 - Labs are the same as July 2020 revision <br> 
-
 When starting each lab choose Yes when prompted to be visible in networks<br> 
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
