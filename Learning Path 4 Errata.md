@@ -1,10 +1,8 @@
-# AZ-500T00 Learning Path 4 Labs Errata 
+# AZ-500T00 Learning Path 4 Labs Errata  – Total time ~210 hours 
 
 When starting each lab choose Yes when prompted to be visible in networks<br>
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
-
-# Learning Path 4 – Manage Security Operations - Lab 11, 12 and 13 launch in a single lab environment – Total time ~210 hours 
 
 ## Lab 7 – Key Vault ~75 Minutes (60 Min)
 
@@ -22,6 +20,8 @@ Task 5: Create a table in the SQL Database and select data columns for encryptio
 Step 10:  If you get an error when connecting, manually type in your password
 
 Step 14:  If the paste does not paste correctly, open notepad on the Lab VM not the RDP session and paste the query into notepad.  Copy and paste from notepad into the the RDP session
+
+# NOTE - Lab 8, 9 and 10 launch in a single lab environment - Do Note End between labs
 
 ## Lab 8 – Azure Monitor ~30 Minutes
 
