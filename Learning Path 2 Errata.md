@@ -5,7 +5,7 @@ When starting each lab choose Yes when prompted to be visible in networks<br>
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
 
-## Lab 5 – Network Security Groups and Application Security Groups ~45 Minutes (60 Min) 
+## Lab 2 – Network Security Groups and Application Security Groups ~45 Minutes (60 Min) 
 
 ### Exercise 1:  Filter network traffic with a network security group using the Azure portal
 
@@ -33,7 +33,7 @@ Step 6:  When pasting from the lab instructions the syntax is wrong. <br>
 	It should be   <br>
 		mstsc /v:MyVmWeb <br>
 
-## Lab 6 – Azure Firewall ~45 Minutes (60 Min) 
+## Lab 3 – Azure Firewall ~45 Minutes (60 Min) 
 
 ### Exercise 1:  Deploy and test an Azure Firewall 
 
@@ -45,30 +45,6 @@ Step 3:  Select Test-FW-VN from the Virtual network dropdown<br>
 Task 2:  Create a default route <br>
 Step 2:  Click +Create<br>
 Step 5:   Search for Route Tables and select <br>
-
-## Lab 7 – Configuring and Securing ACR and AKS ~45 Minutes (60 Min)
-
-If the creation of the storage account fails, click on Show Advanced Settings and manually create a storage account.  Ensure you choose East US. <br>
-
-### Exercise 1:  Configuring and Securing ACR and AKS
-
-Task 1:  Create an Azure Container Registry <br>
-Step 1:  When prompted:  Logon into the Azure portal with your global administrator account. <br>
-
-Task 3: Create an Azure Kubernetes Service cluster<br>
-Step 6:  Do not continue until the cluster is complete<br>
-After step 10 - Create the required Vnet using the following steps <br>
-Search for Virtual network <br>
-Click Create <br>
-Use the provided Resource Group <br>
-Nme the Vnet:  AZ500LAB09-vnet <br>
-Select Review+Create, then Create <br>
-
-Task 4:  Give AKS permissions to access the ACR <br>
-Step 2:   Look in your resources group to see the name of the container registry, replace <ACRuniquename> with the container name <br>
-
-Task 5: Deploy an external service to AKS<br>
-Step 5: There no ellipses. Move your cursor to the upper right hand corner o the editor and left click you will see the option to save and also option to close.<br>
 
 # Learning Path 2 Additional Labs ~240 Minutes (360 Min)
 
