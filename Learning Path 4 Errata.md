@@ -1,17 +1,29 @@
 # AZ-500T00 Learning Path 4 Labs Errata (2020 revision) 
 
-Updated November and September 2021 - Labs are the same as July 2020 revision <br>
 When starting each lab choose Yes when prompted to be visible in networks<br>
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
 
 # Learning Path 4 – Manage Security Operations - Lab 11, 12 and 13 launch in a single lab environment – Total time ~135 hours (90 Min)
 
-## Lab 11 – Azure Monitor ~30 Minutes
+## Lab 7 – Key Vault ~75 Minutes (60 Min)
 
-# Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
+## Exercise 2: Configure the Key Vault resource with a key and a secret
 
-## Lab 11 – Azure Monitor ~30 Minutes
+Task 1: Create and configure a Key Vault
+Step 11:  in the resources pane of the resource group, select the keyvault you just created 
+
+## Exercise 3: Configure an Azure SQL database and a data-driven application
+
+Task 2: Create a policy allowing the application access to the Key Vault<br>
+Step 3:  Replace  ‘<Azure_AD_Application_Id>’ with your AP ID recorded in earlier step.  Make sure to include the ‘ at the beginning and end<br>
+
+Task 5: Create a table in the SQL Database and select data columns for encryption
+Step 10:  If you get an error when connecting, manually type in your password
+
+Step 14:  If the paste does not paste correctly, open notepad on the Lab VM not the RDP session and paste the query into notepad.  Copy and paste from notepad into the the RDP session
+
+## Lab 8 – Azure Monitor ~30 Minutes
 
 Task 3: Enable the Log Analytics virtual machine extension <br>
 Step 1: Before beginning this task, ensure that the Log Analytics Workspace deployment has completed successfully, it should take 1-2 minutes<br>
@@ -25,7 +37,7 @@ Step 5: It doesn’t matter which queries you run, this task is to show you VM l
 
 # ***** DO NOT END THE LAB!!  After completing Lab 11 use the drop down window at the top to move to lab 12  DO NOT END THE LAB!! *****
 
-## Lab 12 – Security Center ~60 Minutes
+## Lab 9 – Security Center ~60 Minutes
 
 Task 1: Configure Security Center <br>
 Step 1: You’re already logged in, you can skip this step<br>
@@ -54,7 +66,7 @@ If JIT does not appear as an option within 30 minutes, move on to Lab 15.<br> It
 
 # ***** DO NOT END THE LAB!!  After completing Lab 12 use the drop-down window at the top to move to lab 13.  Do not end the lab!! *****<br>
 
-## Lab 13: Azure Sentinel ~45 Minutes
+## Lab 10: Azure Sentinel ~45 Minutes
 
 Task 2: Configure Azure Sentinel to use the Azure Activity data connector<br>
 Step 10:  Per the note it may take anywhere from 10-30 minutes before the connector shows Connected. Please wait for it to show Connected before proceeding.<br>
