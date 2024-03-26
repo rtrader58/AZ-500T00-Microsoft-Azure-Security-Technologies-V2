@@ -1,10 +1,10 @@
-# AZ-500T00 Learning Path 4 Labs Errata (2020 revision) 
+# AZ-500T00 Learning Path 4 Labs Errata 
 
 When starting each lab choose Yes when prompted to be visible in networks<br>
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
 
-# Learning Path 4 – Manage Security Operations - Lab 11, 12 and 13 launch in a single lab environment – Total time ~135 hours (90 Min)
+# Learning Path 4 – Manage Security Operations - Lab 11, 12 and 13 launch in a single lab environment – Total time ~210 hours 
 
 ## Lab 7 – Key Vault ~75 Minutes (60 Min)
 
