@@ -12,8 +12,8 @@ Task 1: <br>
 Step 1:  PowerShell is now called Windows Terminal (Admin) when right clicking on the start menu.<br>
 Step 2:  When copying and pasting command it sometimes pastes wrong, Ensure the command is Install-Module <br>
 Add the following command before befroe step 7 <br>
-$domainname = "M365x60893010.mail.onmicrosoft.com" <br>
-Note - copy the UPN from the the Joseph user you created in Exercise 1 - just the UPN not the entire it should look something like this M365x60893010.mail.onmicrosoft.comname <br>
+$domainname = "xxxxx.mail.onmicrosoft.com" <br>
+### Note - Replace the xxxx with the UPN from the the Joseph user you created in Exercise 1 - just the UPN not the entire line, it should look something like this M365x60893010.mail.onmicrosoft.comname <br>
 
 ### Exercise 3 – Creating a Service Desk Group; containing the user account Dylan Williams as its member
 
