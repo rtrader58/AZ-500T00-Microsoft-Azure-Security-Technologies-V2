@@ -21,9 +21,10 @@ Step 10:  If you get an error when connecting, manually type in your password
 
 Step 14:  If the paste does not paste correctly, open notepad on the Lab VM not the RDP session and paste the query into notepad.  Copy and paste from notepad into the the RDP session
 
-# NOTE - Lab 8, 9 and 10 launch in a single lab environment - Do Note End between labs
+# NOTE - Labs 8, 9 and 10 launch in a single lab environment - Do Note End between labs ~150 Minutes (120)
+### Keep an eye on the lab timer.  You will need to extend the lab at least once to complete 
 
-## Lab 8 – Azure Monitor ~30 Minutes
+## Lab 8 – Azure Monitor
 
 Task 3: Enable the Log Analytics virtual machine extension <br>
 Step 1: Before beginning this task, ensure that the Log Analytics Workspace deployment has completed successfully, it should take 1-2 minutes<br>
@@ -37,7 +38,7 @@ Step 5: It doesn’t matter which queries you run, this task is to show you VM l
 
 # ***** DO NOT END THE LAB!!  After completing Lab 8 use the drop down window at the top to move to lab 9  DO NOT END THE LAB!! *****
 
-## Lab 9 – Security Center ~60 Minutes
+## Lab 9 – Security Center
 
 Task 1: Configure Security Center <br>
 Step 1: You’re already logged in, you can skip this step<br>
@@ -66,7 +67,7 @@ If JIT does not appear as an option within 30 minutes, move on to Lab 15.<br> It
 
 # ***** DO NOT END THE LAB!!  After completing Lab 9 use the drop-down window at the top to move to lab 10.  Do not end the lab!! *****<br>
 
-## Lab 10: Azure Sentinel ~45 Minutes
+## Lab 10: Azure Sentinel
 
 Task 2: Configure Azure Sentinel to use the Azure Activity data connector<br>
 Step 10:  Per the note it may take anywhere from 10-30 minutes before the connector shows Connected. Please wait for it to show Connected before proceeding.<br>
