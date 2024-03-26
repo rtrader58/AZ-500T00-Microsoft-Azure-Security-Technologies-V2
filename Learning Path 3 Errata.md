@@ -42,3 +42,33 @@ Step 7:  Back to Microsoft Defender for Cloud blade, review Recommendations and 
 Task 4 : Configure auditing<br>
 Step 3:  Click on Server Settings then set the Auditing switch to ON to enable auditing.<br>
 
+## Lab 6 – Service Endpoints and Securing Storage ~55 Minutes (60 Min)
+
+### Exercise 1: Service endpoints and security storage
+
+Task 1:  Create a virtual network <br>
+Before step 1:  Logon into the Azure portal with your global administrator account. <br>
+Step 2:  You may have to search for Virtual Network<br>
+Step 3:  Leave default security settings (this will choose basic DDOS) <br>
+
+Task 4:  Restrict network access to a resource <br>
+Steps do not work as written, do the following: <br>
+Select the navigation pane in the Azure portal <br>
+Select Storage Account <br>
+Click on New <br>
+Fill out the form with the information from the lab <br>
+
+Task 5:  Create a file share in the storage account<br>
+Step 2:  File share is now called File service.  You may have to scroll on the Overview tab to see the link to File service.  The graphic in the lab does not match the interface. <br>
+
+Task 6: Restrict network access to a subnet<br>
+Step 1:  Under Security + networking for your storage account select networking<br>
+Step 5:  Click Add, then click Save<br>
+Step 6:  Under Security + networking for your storage account select Access keys<br>
+Step 7:  Copy the Key and connection string to notepad<br>
+
+Task 8: Confirm access to storage account <br>
+Step 6: In the third command replace storage-account-name with the name of your storage account leave the rest of the string <br>
+
+Task 9: Confirm access is denied to storage account<br>
+Step 3:  Repeat steps 1-6 of Task 8<br>
