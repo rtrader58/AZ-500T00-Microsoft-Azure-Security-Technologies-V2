@@ -38,9 +38,9 @@ Module 3: Plan and implement security for Azure SQL Database and Azure SQL Manag
 
 Labs <br>
 
-Lab 06 - Configuring and securing ACR and AKS​  <br>
-Lab 07 - Securing Azure SQL Database ~20 Minutes (60) <br>
-Lab 08 - Service Endpoints and Securing Storage <br>
+Lab 04 - Configuring and securing ACR and AKS​  <br>
+Lab 05 - Securing Azure SQL Database ~20 Minutes (60) <br>
+Lab 06 - Service Endpoints and Securing Storage <br>
 
 ## Learning Path 4: Manage Security Operations  - https://learn.microsoft.com/en-us/training/paths/manage-security-operations-new/
 
@@ -51,7 +51,7 @@ Module 4: Cloud Configure and manage security monitoring and automation solution
 
 Labs <br>
 
-Lab 09 - Key Vault​  <br>
-Lab 10 - Azure Monitor ~30 Minutes <br>
-Lab 11 - Security Center ~60 Minutes <br>
-Lab 12 - Azure Sentinel ~45 Minutes<br>
+Lab 07 - Key Vault​  <br>
+Lab 08 - Azure Monitor ~30 Minutes <br>
+Lab 09 - Security Center ~60 Minutes <br>
+Lab 10 - Azure Sentinel ~45 Minutes<br>
