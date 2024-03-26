@@ -1,8 +1,12 @@
 # AZ-500T00 All Learning Paths Errata
 
-
 Updated March 2024 <br>
 When starting each lab choose Yes when prompted to be visible in networks<br>
+# Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
+
+# AZ-500T00 Learning Path 1 Labs Errata   
+ 
+When starting each lab choose Yes when prompted to be visible in networks<br> 
 
 # Learning Path 1 Manage Identity and Access - Total lab time ~150 Minutes (3.5 hour)
 
@@ -14,8 +18,10 @@ When starting each lab choose Yes when prompted to be visible in networks<br>
 
 Task 1: <br>
 Step 1:  PowerShell is now called Windows Terminal (Admin) when right clicking on the start menu.<br>
-Step 2:  When copying and pasting command it sometimes pastes wrong, 
-Ensure the command is Install-Module <br>
+Step 2:  When copying and pasting command it sometimes pastes wrong, Ensure the command is Install-Module <br>
+Add the following command before befroe step 7 <br>
+$domainname = "xxxxx.mail.onmicrosoft.com" <br>
+### Note - Replace the xxxx with the UPN from the the Joseph user you created in Exercise 1 - just the UPN not the entire line, it should look something like this M365x60893010.mail.onmicrosoft.comname <br>
 
 ### Exercise 3 – Creating a Service Desk Group; containing the user account Dylan Williams as its member
 
@@ -24,7 +30,7 @@ If you encounter an error during this lab that indicates the clock is out of syn
 Wait for step 1 to complete before moving on to step 2 <br>
 After running step 3 choose Edge Browser and enter your Azure tenant admin account and password <br>
 
-# Learning Path 2 – Implement Platform Protection ~135 Minutes (180)
+# Learning Path 2 – Implement Platform Protection ~95 Minutes (180)
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
 
@@ -37,16 +43,11 @@ Before step 1:  Logon into the Azure portal with your global administrator accou
 Step 2: You may have to search for Virtual network, if you have to search then click Create <br>
 
 Task 3: Create a network security group<br>
-Step 2: You may have to search for Network security group, if you have to search then click Create - ensure you choose Network Security Group (Not network security group classic) <br>
-After step 10 - Create the required Vnet using the following steps <br>
-Search for Virtual network <br>
-Click Create <br>
-Use the provided Resource Group <br>
-Nme the Vnet:  AZ500LAB09-vnet <br>
-Select Review+Create, then Create <br>
+Step 2: You may have to search for Network security group, if you have to search then click Create - ensure you choose Network Security Group (Not network security group classic)<br>
 
-Task 4: Create inbound NSG security rules to all traffic to web servers and RDP to the servers.<br>
-Note -- when creating the rules leave the source as "Any"<br>
+Task 4: Create inbound NSG security rules to all traffic to web servers and RDP to the servers. <br>
+
+Note -- when creating the rules leave the source as "Any" <br>
 
 Task 6: Create virtual machines<br>
 Step 2:  Choose Windows Server 2019 Datacenter<br>
@@ -61,7 +62,7 @@ Step 6:  When pasting from the lab instructions the syntax is wrong. <br>
 	It should be   <br>
 		mstsc /v:MyVmWeb <br>
 
-## Lab 03 – Azure Firewall ~45 Minutes (60 Min) 
+## Lab 3 – Azure Firewall ~45 Minutes (60 Min) 
 
 ### Exercise 1:  Deploy and test an Azure Firewall 
 
@@ -74,33 +75,7 @@ Task 2:  Create a default route <br>
 Step 2:  Click +Create<br>
 Step 5:   Search for Route Tables and select <br>
 
-## Lab 7 – Configuring and Securing ACR and AKS ~45 Minutes (60 Min)
-
-If the creation of the storage account fails, click on Show Advanced Settings and manually create a storage account.  Ensure you choose East US. <br>
-
-### Exercise 1:  Configuring and Securing ACR and AKS
-
-Task 1:  Create an Azure Container Registry <br>
-Step 1:  When prompted:  Logon into the Azure portal with your global administrator account. <br>
-
-Task 3: Create an Azure Kubernetes Service cluster<br>
-Step 6:  Do not continue until the cluster is complete<br>After Step 10 create a Vnet using the following Steps<br>
-Search for Virtual networks - Select Virtual Networks <br>
-Select Create <br>
-On the Basics tab <br>
-Choose the Resource Group created peviously in the lab <br>
-Nme the Virtual network:  AZ500LAB09-vnet <br>
-Click review+create then Create <br>
-
-Task 4:  Give AKS permissions to access the ACR <br>
-Step 2:   Look in your resources group to see the name of the container registry, replace <ACRuniquename> with the container name <br>
-
-Task 5: Deploy an external service to AKS<br>
-Step 5: There no ellipses. Move your cursor to the upper right hand corner on the editor and left click you will see the option to save and also option to close.<br>
-
 # Learning Path 2 Additional Labs ~240 Minutes (360 Min)
-
-# Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Nmae change)
 
 ## Lab 102 – VNet Peering ~45 Minutes (60 Min) 
 
@@ -136,11 +111,14 @@ Before step 1:  Logon into the Azure portal with your global administrator accou
 If Route Tables does not show up as an option Search for it <br>
 
 Task 5: Associate myRouteTablePublic to your Public subnet <br>
-Step 2:  If you get an error the Subnet Address Range cannot be blank.  Populate it with the IP Adress ffrom Task 3 > Step 2 > Public IP Addresss range provided in the box <br>
+Step 2:  If you get an error the Subnet Address Range cannot be blank.  Populate it with the IP Adress from Task 3 > Step 2 > Public IP Addresss range provided in the box <br>
 
 Task 6:  Create an NVA <br>
 Step 8:  Select - “Enable with custom storage Account” <br>
 Use the name that auto populates <br>
+
+Task 7: Turn on IP forwarding <br>
+Step 4:  Select Apply <br>
 
 Task 11:  Turn on IP forwarding with myVmNva <br>
 Step 4:   Does not paste correctly – change the ; to a : <br>
@@ -152,6 +130,7 @@ Step 4:   Does not paste correctly – change the ; to a : <br>
 Task 1:  Enable Azure Bastion on your subscription <br>
 Before step 1:  Logon into the Azure portal with your global administrator account. <br>
 If the creation of the storage account fails, click on Show Advanced Settings and manually create a storage account.  Ensure you choose East US. <br>
+
 Step 4:  When running the second PowerShell command remove the word “undefined” at the end of the command <br>
 Step 8:  Select Save not OK<br>
 
@@ -184,11 +163,35 @@ Click on “Go to Update management <br>
 Task 5:  Configure Alerts <br>
 Step 7:  No longer required<br>
 
-# Learning Path 3 - Secure Data and Applications ~150 Minutes (180 Min)
+# Learning Path 3 - Secure Data and Applications ~140 Minutes (180 Min)
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
 
-## Lab 8 – Securing Azure SQL Database ~20 Minutes (60 Min)
+## Lab 4 – Configuring and Securing ACR and AKS ~45 Minutes (60 Min)
+
+If the creation of the storage account fails, click on Show Advanced Settings and manually create a storage account.  Ensure you choose East US. <br>
+
+### Exercise 1:  Configuring and Securing ACR and AKS
+
+Task 1:  Create an Azure Container Registry <br>
+Step 1:  When prompted:  Logon into the Azure portal with your global administrator account. <br>
+
+Task 3: Create an Azure Kubernetes Service cluster<br>
+Step 6:  Do not continue until the cluster is complete<br>
+After step 10 - Create the required Vnet using the following steps <br>
+Search for Virtual network <br>
+Click Create <br>
+Use the provided Resource Group <br>
+Nme the Vnet:  AZ500LAB09-vnet <br>
+Select Review+Create, then Create <br>
+
+Task 4:  Give AKS permissions to access the ACR <br>
+Step 2:   Look in your resources group to see the name of the container registry, replace <ACRuniquename> with the container name <br>
+
+Task 5: Deploy an external service to AKS<br>
+Step 5: There no ellipses. Move your cursor to the upper right hand corner o the editor and left click you will see the option to save and also option to close.<br>
+
+## Lab 5 – Securing Azure SQL Database ~20 Minutes (60 Min)
 
 Task 2:  Configure Advanced Data Protection <br>
 Before step 1:  Logon into the Azure portal with your global administrator account. <br>
@@ -199,7 +202,7 @@ Step 7:  Back to Microsoft Defender for Cloud blade, review Recommendations and 
 Task 4 : Configure auditing<br>
 Step 3:  Click on Server Settings then set the Auditing switch to ON to enable auditing.<br>
 
-## Lab 9 – Securing Azure Storage ~55 Minutes (60 Min)
+## Lab 6 – Service Endpoints and Securing Storage ~75 Minutes (60 Min)
 
 ### Exercise 1: Service endpoints and security storage
 
@@ -229,23 +232,6 @@ Step 6: In the third command replace storage-account-name with the name of your 
 
 Task 9: Confirm access is denied to storage account<br>
 Step 3:  Repeat steps 1-6 of Task 8<br>
-
-## Lab 10 – Key Vault (Implementing Secure Data by setting up Always Encrypted) ~75 Minutes (60 Min)
-
-## Exercise 2: Key Vault
-
-Task 1: Create and configure a Key Vault
-Step 11:  in the resources pane of the resource group, select the keyvault you just created 
-
-## Exercise 3: Configure an Azure SQL database and a data-driven application
-
-Task 2: Create a policy allowing the application access to the Key Vault<br>
-Step 3:  Replace  ‘<Azure_AD_Application_Id>’ with your AP ID recorded in earlier step.  Make sure to include the ‘ at the beginning and end<br>
-
-Task 5: Create a table in the SQL Database and select data columns for encryption <br>
-Step 10:  If you get an error when connecting, manually type in your password <br>
-
-Step 14:  If the paste does not paste correctly, open notepad on the Lab VM not the RDP session and paste the query into notepad.  Copy and paste from notepad into the the RDP session <br>
 	
 # Learning Path 4 – Manage Security Operations - Lab 11, 12 and 13 launch in a single lab environment – Total time ~135 hours (90 Min)
 
