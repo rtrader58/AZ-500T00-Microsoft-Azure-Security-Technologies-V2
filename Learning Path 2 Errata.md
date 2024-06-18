@@ -38,6 +38,11 @@ Step 6:  On the myVMWeb blade, in the Networking section, click the Application 
 Step 7:  Click + Add application security groups, in the Application security group list, select myAsgMgmtServers, and then click Add <br>
 Note - if you want to verify the NSG and ASG attempt to RDP into the myVmWeb server and attempt to connect to the default web site on the myVMMgmt server -  both attepts should fail <br>
 
+### Clean up resources
+
+Replace step 1 with the following: <br>
+
+Step 1:  Open the Cloud Shell by clicking the first icon in the top right of the search area in the Azure portal > Select PowerShell > click Mount Storage Account > in the drop down choose your subscription > click Apply > select We will create a storage account for you > click next <br>
 
 ## Lab 3 – Azure Firewall ~45 Minutes (60 Min) 
 
