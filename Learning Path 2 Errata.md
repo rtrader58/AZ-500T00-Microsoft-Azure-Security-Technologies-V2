@@ -4,33 +4,40 @@ When starting each lab choose Yes when prompted to be visible in networks<br>
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
 
-## Lab 2 – Network Security Groups and Application Security Groups ~45 Minutes (60 Min) 
+# Learning Path 2 – Implement Platform Protection ~95 Minutes (120)
+
+## Lab 02 – Network Security Groups and Application Security Groups ~45 Minutes (60 Min) 
 
 ### Exercise 1:  Filter network traffic with a network security group using the Azure portal
 
 Task 1:  Create a virtual network <br>
-Before step 1:  Logon into the Azure portal with your global administrator account<br>
-Step 2: You may have to search for Virtual network, if you have to search then click Create <br>
+Step 4:  The Resource Group has already been created, select it from the dropdown menu <br>
+
+Task 2: Create application security groups <br>
+Step 3:  The Resource Group has already been created, select it from the dropdown menu <br>
 
 Task 3: Create a network security group<br>
-Step 2: You may have to search for Network security group, if you have to search then click Create - ensure you choose Network Security Group (Not network security group classic)<br>
+Step 3:  The Resource Group has already been created, select it from the dropdown menu <br>
 
-Task 4: Create inbound NSG security rules to all traffic to web servers and RDP to the servers. <br>
+### Exercise 2: Deploy virtual machines and test network filters
 
-Note -- when creating the rules leave the source as "Any" <br>
+Task 1: Create a virtual machine to use as a web server <br>
+Step 3:  The Resource Group has already been created, select it from the dropdown menu <br>
+Step 3:  Choose Windows Server 2019 Datacenter - x64 Gen 2<br>
+Step 3:  Use the Labuser password in the Resources tab, if the password is not long enough add additional characters <br>
 
-Task 6: Create virtual machines<br>
-Step 2:  Choose Windows Server 2019 Datacenter<br>
-Step 5:  Select Disable not off<br>
-Task 8: Associate network interfaces to an ASG<br>
-Step2:  Select Application security group, then select Configur the application security group<br>
+Task 2: Create a virtual machine to use as a web server <br>
+Step 2:  The Resource Group has already been created, select it from the dropdown menu <br>
+Step 2:  Choose Windows Server 2019 Datacenter - x64 Gen 2<br>
+Step 2:  Use the Labuser password in the Resources tab, if the password is not long enough add additional characters <br>
 
-Task 9:  Test traffic filters <br>
-Step 6:  When pasting from the lab instructions the syntax is wrong. <br> 
-	It pastes  <br>
-		mstsc /v;myVmWeb <br>
-	It should be   <br>
-		mstsc /v:MyVmWeb <br>
+Task 3: Associate each virtual machines network interface to its application security group <br>
+Step 3:  On the myVMWeb blade, in the Networking section, click the Application security groups <br>
+Step 4:  Click + Add application security groups, in the Application security group list, select myAsgWebServers, and then click Add <br>
+Step 6:  On the myVMWeb blade, in the Networking section, click the Application security groups <br>
+Step 7:  Click + Add application security groups, in the Application security group list, select myAsgMgmtServers, and then click Add <br>
+Note - if you want to verify the NSG and ASG attempt to RDP into the myVmWeb server and attempt to connect to the default web site on the myVMMgmt server -  both attepts should fail <br>
+
 
 ## Lab 3 – Azure Firewall ~45 Minutes (60 Min) 
 
