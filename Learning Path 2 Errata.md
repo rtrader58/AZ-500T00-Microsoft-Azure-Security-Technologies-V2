@@ -48,11 +48,27 @@ Step 1:  Open the Cloud Shell by clicking the first icon in the top right of the
 
 ### Exercise 1:  Deploy and test an Azure Firewall 
 
-Task 1:  Deploy the Azure firewall 
-Step 1:  When prompted:  Logon into the Azure portal with your global administrator account.  <br>
-Step 3:  Select radial button under Firewall management - Use Firewall rules (classic) to manage this firewall<br>
-Step 3:  Select Test-FW-VN from the Virtual network dropdown<br>
+Task 1:  Use a template to deploy the lab environment <br> 
+Step 4:  The allfiles folder is located on the desktop not in the F drive <br>
+Step 6:  Create a password of at least 12 characters, recommendation using the password in the Resources tab add additional characters to make it at least 12, paste it into Notepad for later use <BR>
 
-Task 2:  Create a default route <br>
-Step 2:  Click +Create<br>
-Step 5:   Search for Route Tables and select <br>
+Task 2:  Deploy the Azure firewall <br>
+Step 4:  Click Next : Tags > Click Review + create and then click Create.
+
+Task 4:  Configure an application rule <br>
+Step 5:  Before continueing wait for the rule to finish configuring before moving on <br>
+
+Task 5:  Configure a network rule <br>
+Step 5:  Before continueing wait for the rule to finish configuring before moving on <br>
+
+Task 6:  Configure the virtual machine DNS servers <br>
+Step 3:  On the Srv-Work blade, in the Networking section, click Networking Settings <br>
+
+Task 7: Test the firewall <br>
+Step 9:  Select do not use recommended setting as if will block the results of the test <br>
+
+### Clean up resources
+
+Replace step 1 with the following: <br>
+
+Step 1:  Open the Cloud Shell by clicking the first icon in the top right of the search area in the Azure portal > Select PowerShell > click Mount Storage Account > in the drop down choose your subscription > click Apply > select We will create a storage account for you > click next <br>
