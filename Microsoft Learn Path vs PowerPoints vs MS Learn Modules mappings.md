@@ -9,7 +9,9 @@ Module 4: Manage application access in Microsoft Entra ID - https://learn.micros
 
 Labs <br>
 
-Lab 01 - Role-Based Access Control ~30 Minutes (90) <br> 
+Lab 01 - Role-Based Access Control ~30 Minutes (90 Min) <br> 
+
+Challenge Labs supporting AZ-500T00-A - Module 1: Manage Identity and Access (105 Min) <br>
 
 ## Learning Path 2:  Implement platform protection - https://learn.microsoft.com/en-us/training/paths/secure-networking/
 
@@ -17,18 +19,12 @@ Module 1: Plan and implement security for virtual networks - https://learn.micro
 Module 2: Plan and implement security for private access to Azure resources - https://learn.microsoft.com/en-us/training/modules/security-private-access-azure-resources/ <br>
 Module 3: Plan and implement security for public access to Azure resources - https://learn.microsoft.com/en-us/training/modules/security-public-access-azure-resources/<br>
 
-Labs ~90 Minutes (120)<br>
+Labs ~90 Minutes (120 Min)<br>
 
-Lab 02 - Network Security Groups and Application Security Groups ~45 Minutes (60) <br>
-Lab 03 - Azure Firewall ~45 Minutes (60) <br>
+Lab 02 - Network Security Groups and Application Security Groups ~45 Minutes (60 Min) <br>
+Lab 03 - Azure Firewall ~45 Minutes (60 Min) <br>
 
-Learning Path 2 Additional Labs ~305 Minutes (360)<br>
-Lab 102: VNet Peering ~45 Minutes (60) <br>
-Lab 103: NVA ~75 Minutes (60) <br>
-Lab 104: Azure Bastion ~30 Minutes (60) <br>
-Lab 105: VM Secure Admin Access ~40 Minutes (60) <br>
-Lab 106: Azure Disk Encryption ~20 Minutes (60) <br>
-Lab 107: VM Update Management ~40 Minutes (60) <br>
+Challenge Labs supporting AZ-500T00-A - Module 2: Implement Platform Protection (360 Min) <br>
 
 ## Learning Path 3:  Secure Compute, Storage, and Databases - https://learn.microsoft.com/en-us/training/paths/secure-compute-storage-databases/
 
@@ -38,9 +34,11 @@ Module 3: Plan and implement security for Azure SQL Database and Azure SQL Manag
 
 Labs <br>
 
-Lab 04 - Configuring and securing ACR and AKS​  <br>
-Lab 05 - Securing Azure SQL Database ~20 Minutes (60) <br>
-Lab 06 - Service Endpoints and Securing Storage <br>
+Lab 04 - Configuring and securing ACR and AKS​ ~45 Minutes (90 Min) <br>
+Lab 05 - Securing Azure SQL Database ~20 Minutes (60 Min) <br>
+Lab 06 - Service Endpoints and Securing Storage ~60 Minutes (90 Min)<br>
+
+Challenge Labs supporting AZ-500T00-A - Module 3: Secure Data and Applications (240 Min) <br>
 
 ## Learning Path 4: Manage Security Operations  - https://learn.microsoft.com/en-us/training/paths/manage-security-operations-new/
 
@@ -51,7 +49,8 @@ Module 4: Cloud Configure and manage security monitoring and automation solution
 
 Labs <br>
 
-Lab 07 - Key Vault​  <br>
-Lab 08 - Azure Monitor ~30 Minutes <br>
-Lab 09 - Security Center ~60 Minutes <br>
-Lab 10 - Azure Sentinel ~45 Minutes<br>
+Lab 07 - Key Vault​  ~45 Minutes (90 Min) <br>
+Lab 08, 09 and 10 - Azure Monitor - Security Center - Azure Sentinel ~180 Minutes (350 Min) <br>
+
+Challenge Labs supporting AZ-500T00-A - Module 4: Manage Security Operations (150 Min) <br>
+
