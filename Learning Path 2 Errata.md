@@ -4,7 +4,7 @@ When starting each lab choose Yes when prompted to be visible in networks<br>
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
 
-# Learning Path 2 – Implement Platform Protection ~95 Minutes (120)
+# Learning Path 2 – Implement Platform Protection - Total lab time ~95 Minutes (120)
 
 ## Lab 02 – Network Security Groups and Application Security Groups ~45 Minutes (60 Min) 
 
