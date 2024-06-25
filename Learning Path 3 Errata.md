@@ -4,7 +4,7 @@ When starting each lab choose Yes when prompted to be visible in networks<br>
 
 # Remember anywhere the term Azure Active Directory (AAD) select Microsoft Entra ID  (Name change)
 
-# Learning Path 3 - Secure Data and Applications ~140 Minutes (180 Min)
+# Learning Path 3 - Secure Data and Applications - Total lab time ~140 Minutes (180 Min)
 
 ## Lab 4 – Configuring and Securing ACR and AKS ~60 Minutes (90 Min)
 
