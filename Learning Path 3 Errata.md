@@ -6,7 +6,7 @@ When starting each lab choose Yes when prompted to be visible in networks<br>
 
 # Learning Path 3 - Secure Data and Applications ~140 Minutes (180 Min)
 
-## Lab 4 – Configuring and Securing ACR and AKS ~45 Minutes (60 Min)
+## Lab 4 – Configuring and Securing ACR and AKS ~60 Minutes (90 Min)
 
 ### Exercise 1:  Configuring and Securing ACR and AKS
 
@@ -35,12 +35,12 @@ Skip Step 7 <br>
 Task 7: Deploy an internal service to AKS <br>
 Skip step 5 <br>
 
-## Lab 5 – Securing Azure SQL Database ~20 Minutes (60 Min)
+## Lab 5 – Securing Azure SQL Database ~45 Minutes (90 Min)
 
 Task 1: Deploy an Azure SQL Database <br>
 Step 4:  Allfiles is located on the Desktop <br>
 
-## Lab 6 – Service Endpoints and Securing Storage ~75 Minutes (60 Min)
+## Lab 6 – Service Endpoints and Securing Storage ~75 Minutes (90 Min)
 
 ### Exercise 1: Service endpoints and security storage
 
