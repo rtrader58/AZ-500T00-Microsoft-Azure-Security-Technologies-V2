@@ -151,7 +151,12 @@ Delete the AZ500LAB12 Resource Group <br>
 	
 # Learning Path 4 – Manage Security Operations – Total time ~210 Minutes 
 
-## Lab 7 – Key Vault ~75 Minutes (60)
+## Lab 7 – Key Vault (Implementing Secure Data by setting up Always Encrypted) ~75 Minutes (90)
+
+### Exercise 1: Deploy the base infrastructure from an ARM template
+
+Task 1: Deploy an Azure VM and an Azure SQL database <br>
+Step 4:  Allfiles is located on the Desktop <br>
 
 ## Exercise 2: Configure the Key Vault resource with a key and a secret
 
@@ -168,7 +173,7 @@ Step 10:  If you get an error when connecting, manually type in your password
 
 Step 14:  If the paste does not paste correctly, open notepad on the Lab VM not the RDP session and paste the query into notepad.  Copy and paste from notepad into the the RDP session
 
-# NOTE - Labs 8, 9 and 10 launch in a single lab environment - Do Note End between labs ~150 Minutes (120)
+# NOTE - Labs 8, 9 and 10 launch in a single lab environment - Do Note End between labs ~180 Minutes (320)
 ### Keep an eye on the lab timer.  You will need to extend the lab at least once to complete 
 
 ## Lab 8 – Azure Monitor
