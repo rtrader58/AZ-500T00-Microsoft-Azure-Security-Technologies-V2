@@ -23,7 +23,7 @@ Step 1:  Select PowerShell > click Mount Storage Account > in the drop down choo
 Task 1: Use Azure CLI to create a user account Dylan Williams<br> 
 If you encounter an error during this lab that indicates the clock is out of sync or the current time is in error, use the Settings app in the VM to synchronize the computer’s clock and then retry the step<br>
 
-# Learning Path 2 – Implement Platform Protection ~95 Minutes (120)
+# Learning Path 2 – Implement Platform Protection - Total lab time ~95 Minutes (120)
 
 ## Lab 02 – Network Security Groups and Application Security Groups ~45 Minutes (60 Min) 
 
@@ -92,7 +92,7 @@ Replace step 1 with the following: <br>
 
 Step 1:  Open the Cloud Shell by clicking the first icon in the top right of the search area in the Azure portal > Select PowerShell > click Mount Storage Account > in the drop down choose your subscription > click Apply > select We will create a storage account for you > click next <br>
 
-# Learning Path 3 - Secure Data and Applications ~140 Minutes (180 Min)
+# Learning Path 3 - Secure Data and Applications - Total lab time ~140 Minutes (180 Min)
 
 ## Lab 4 – Configuring and Securing ACR and AKS ~45 Minutes (90 Min)
 
@@ -149,7 +149,7 @@ Step 9:  For the password I used the Azure Admin passowrd in the resources tab. 
 Clean up resources <br>
 Delete the AZ500LAB12 Resource Group <br>
 	
-# Learning Path 4 – Manage Security Operations – Total time ~210 Minutes 
+# Learning Path 4 – Manage Security Operations - Total lab time ~210 Minutes 
 
 ## Lab 7 – Key Vault (Implementing Secure Data by setting up Always Encrypted) ~75 Minutes (90)
 
