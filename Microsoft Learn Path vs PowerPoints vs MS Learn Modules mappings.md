@@ -34,9 +34,9 @@ Module 3: Plan and implement security for Azure SQL Database and Azure SQL Manag
 
 Labs <br>
 
-Lab 04 - Configuring and securing ACR and AKS​ ~45 Minutes (90 Min) <br>
-Lab 05 - Securing Azure SQL Database ~20 Minutes (60 Min) <br>
-Lab 06 - Service Endpoints and Securing Storage ~60 Minutes (90 Min)<br>
+Lab 04 - Configuring and securing ACR and AKS​ ~60 Minutes (90 Min) <br>
+Lab 05 - Securing Azure SQL Database ~45 Minutes (90 Min) <br>
+Lab 06 - Service Endpoints and Securing Storage ~75 Minutes (90 Min)<br>
 
 Challenge Labs supporting AZ-500T00-A - Module 3: Secure Data and Applications (240 Min) <br>
 
