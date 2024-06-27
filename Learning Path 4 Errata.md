@@ -15,7 +15,7 @@ Step 4:  Allfiles is located on the Desktop <br>
 
 Task 1: Create and configure a Key Vault <br>
 Replace steps 1 - 4 with the following steps. (Key vault has to be created manually) <br>
-Search for Key Vaults, select Key Vaults for the list <br>
+Search for Key Vaults, select Key Vaults from the list <br>
 Clcik + Create <br>
 Select the pre-created Resource Group <br>
 Name the Key Vault - az500kv-yourinitials <br>
