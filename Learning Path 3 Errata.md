@@ -12,6 +12,7 @@ When starting each lab choose Yes when prompted to be visible in networks<br>
 
 Task 1:  Create an Azure Container Registry <br>
 Step 2:  Open the Cloud Shell by clicking the first icon in the top right of the search area in the Azure portal > Select Bash > click Mount Storage Account > in the drop down choose your subscription > click Apply > select We will create a storage account for you > click next <br>
+Once the CloudShell opens click on Setting and select Go to classic version <br>
 
 Task 3: Create an Azure Kubernetes Service cluster<br>
 Step 6:  Do not continue until the cluster is complete<br>
@@ -27,7 +28,7 @@ Task 4:  Give AKS permissions to access the ACR <br>
 Step 2:   Look in your resources group to see the name of the container registry, replace <ACRuniquename> with the container name <br>
 
 Task 5: Deploy an external service to AKS<br>
-Step 1:  Click on Manage files > Upload > the allfils folder is on the desktop
+Step 1:  Click on Manage files > Upload > the allfils folder is on the desktop <br>
 Step 3:  If prompted to return to previous Cloud shell click Confirm > repaste Step 3 <br>
 Step 5: There no ellipses. Move your cursor to the upper right hand corner of the editor and left click you will see the option to save and also option to close.<br>
 Skip Step 7 <br>
