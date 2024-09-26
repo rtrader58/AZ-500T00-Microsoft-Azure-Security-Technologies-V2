@@ -63,19 +63,23 @@ Step 3:  Leave Primary service blank
 
 # ***** DO NOT END THE LAB!!  After completing Lab 8 use the drop down window at the top to move to lab 9  DO NOT END THE LAB!! *****
 
-## Lab 9 – Security Center
+## Lab 9 – Microsoft Defender for Cloud
 
-Task 1: Configure Security Center <br>
+### Exercise 1: Implement Microsoft Defender for Cloud
+
+Task 1: Configure Microsoft Defender for Cloud <br>
 Step 1: You’re already logged in, you can skip this step<br>
-Step 4: You may need to refresh the screen to see Install Agents
+Step 4: You may need to refresh the screen to see Install Agents (tool opver 45 minutes to show) move on with the steps<br>
 
-If JIT does not appear as an option within 30 minutes, move on to Lab 15.<br> It is not necessary to complete the JIT VM Access task to complete the labs.<br>
+Task 3: Implement the Microsoft Defender for Cloud recommendation to enable Just-in-time VM Access<br>
+Step 2: JIT does not appear as an option within 30 minutes, move on to Lab 15.<br> 
+It is not necessary to complete the JIT VM Access task to complete the labs.  After completing Lab 10 come back to this step<br>
 
 # ***** DO NOT END THE LAB!!  After completing Lab 9 use the drop-down window at the top to move to lab 10.  Do not end the lab!! *****<br>
 
-## Lab 10: Azure Sentinel
+## Lab 10: Microsoft Sentinel
 
-Task 2: Configure Azure Sentinel to use the Azure Activity data connector<br>
+Task 2: Configure Microsoft Sentinel to use the Azure Activity data connector<br>
 Step 10:  Per the note it may take anywhere from 10-30 minutes before the connector shows Connected. Please wait for it to show Connected before proceeding.<br>
 
 Task 3: Create a rule that uses the Azure Activity data connector <br>
