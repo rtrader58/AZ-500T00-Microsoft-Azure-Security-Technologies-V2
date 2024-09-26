@@ -44,8 +44,22 @@ Step 16:  You may have to sign into Azure to see your key vault.  Click sign int
 
 ### Exercise 1: Deploy an Azure virtual machine
 
-Task 1: Deploy an Azure virtual machine
-Step 6:  If you get an error the NRP service is not register.  Rerun the command <br>
+Task 1: Deploy an Azure virtual machine<br>
+Step 6:  The script errors out when creating the VM, create the VM manually using the following<br>
+Select create a resource from the navigation menu<br>
+Select Windows 2029 Datacenter<br>
+On the Basic tab<br>
+Resource Group: Select AZ500Lab131415<br>
+Name: myVM<br>
+Availability Zone: No infrastructure redundancy<br>
+Username:  localadmin<br>
+Password:  create a 12 characterpassword<br>
+Select inbound ports 80, 3389<br>
+Click review + create<br>
+Click create <br>
+
+### Exercise 3: Create an Azure storage account
+Step 3:  Leave Primary service blank
 
 # ***** DO NOT END THE LAB!!  After completing Lab 8 use the drop down window at the top to move to lab 9  DO NOT END THE LAB!! *****
 
