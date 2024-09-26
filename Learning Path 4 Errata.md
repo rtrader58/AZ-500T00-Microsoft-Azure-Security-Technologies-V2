@@ -53,7 +53,7 @@ Resource Group: Select AZ500Lab131415<br>
 Name: myVM<br>
 Availability Zone: No infrastructure redundancy<br>
 Username:  localadmin<br>
-Password:  create a 12 characterpassword<br>
+Password:  create a 12 character password<br>
 Select inbound ports 80, 3389<br>
 Click review + create<br>
 Click create <br>
