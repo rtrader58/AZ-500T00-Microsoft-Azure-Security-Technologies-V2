@@ -9,7 +9,7 @@ Module 4: Manage application access in Microsoft Entra ID - https://learn.micros
 
 Labs <br>
 
-Lab 01 - Role-Based Access Control ~30 Minutes (90 Min) <br> 
+Lab 01 - Role-Based Access Control ~45 Minutes (90 Min) <br> 
 
 Challenge Labs supporting AZ-500T00-A - Module 1: Manage Identity and Access (105 Min) <br>
 
@@ -19,10 +19,10 @@ Module 1: Plan and implement security for virtual networks - https://learn.micro
 Module 2: Plan and implement security for private access to Azure resources - https://learn.microsoft.com/en-us/training/modules/security-private-access-azure-resources/ <br>
 Module 3: Plan and implement security for public access to Azure resources - https://learn.microsoft.com/en-us/training/modules/security-public-access-azure-resources/<br>
 
-Labs ~90 Minutes (120 Min)<br>
+Labs ~150 Minutes (270 Min)<br>
 
-Lab 02 - Network Security Groups and Application Security Groups ~45 Minutes (60 Min) <br>
-Lab 03 - Azure Firewall ~45 Minutes (60 Min) <br>
+Lab 02 - Network Security Groups and Application Security Groups ~60 Minutes (90 Min) <br>
+Lab 03 - Azure Firewall ~90 Minutes (180 Min) <br>
 
 Challenge Labs supporting AZ-500T00-A - Module 2: Implement Platform Protection (360 Min) <br>
 
@@ -32,7 +32,7 @@ Module 1: Plan and implement advanced security for compute  - https://learn.micr
 Module 2: Plan and implement security for storage - https://learn.microsoft.com/en-us/training/modules/security-storage/ <br>
 Module 3: Plan and implement security for Azure SQL Database and Azure SQL Managed Instance  - https://learn.microsoft.com/en-us/training/modules/security-azure-sql-database-azure-sql-managed-instance// <br>
 
-Labs <br>
+Labs ~180 Minutes (270 Min)<br>
 
 Lab 04 - Configuring and securing ACR and AKS​ ~60 Minutes (90 Min) <br>
 Lab 05 - Securing Azure SQL Database ~45 Minutes (90 Min) <br>
