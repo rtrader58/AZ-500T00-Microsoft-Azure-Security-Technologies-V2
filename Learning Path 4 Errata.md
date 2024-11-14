@@ -44,20 +44,6 @@ Step 16:  You may have to sign into Azure to see your key vault.  Click sign int
 
 ### Exercise 1: Deploy an Azure virtual machine
 
-Task 1: Deploy an Azure virtual machine<br>
-Step 6:  The script errors out when creating the VM, create the VM manually using the following<br>
-Select create a resource from the navigation menu<br>
-Select Windows 2029 Datacenter<br>
-On the Basic tab<br>
-Resource Group: Select AZ500Lab131415<br>
-Name: myVM<br>
-Availability Zone: No infrastructure redundancy<br>
-Username:  localadmin<br>
-Password:  create a 12 character password<br>
-Select inbound ports 80, 3389<br>
-Click review + create<br>
-Click create <br>
-
 ### Exercise 3: Create an Azure storage account
 Step 3:  Leave Primary service blank
 
@@ -70,6 +56,8 @@ Step 3:  Leave Primary service blank
 Task 1: Configure Microsoft Defender for Cloud <br>
 Step 1: You’re already logged in, you can skip this step<br>
 Step 4: You may need to refresh the screen to see Install Agents (tool opver 45 minutes to show) move on with the steps<br>
+Step 10: After selecting Enable all plans > on the Plan selection blade > delect Microsoft Defender for APIs Plan 1 > click Save <br>
+Step 11: Click on Settings & monitoring > Defender plans > select All > select Apply
 
 Task 3: Implement the Microsoft Defender for Cloud recommendation to enable Just-in-time VM Access<br>
 Step 2: JIT does not appear as an option within 30 minutes, move on to Lab 15.<br> 
